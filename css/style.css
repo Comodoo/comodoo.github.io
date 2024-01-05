@@ -1,0 +1,456 @@
+/*
+Theme Name: Anim
+Theme URI: http://wp-themes.com/Anim
+Author: Debashis Sinha
+Author URI: http://debashisufo.blogspot.com
+Description: Anim is a powerful blog theme that provides a fast way for bloger to create an awesome blog website. 
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: anim
+Tags: light, two-columns, right-sidebar, fluid-layout, responsive-layout, custom-colors,  featured-images, sticky-post, theme-options, threaded-comments.
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+body {
+    background: #F6F6F6;
+}
+
+a {
+    color: #BA6443;
+    opacity: .8;
+}
+
+a:hover {
+    color: #D2D37E;
+    text-decoration: none;
+}
+
+.des {
+    color: #BA6443;
+    text-align: center;
+    margin-top: -10px;
+}
+
+.container {
+    background: #F6F6F6;
+    margin-bottom: 20px;
+}
+
+.content .col-md-8 {
+    background: #FFF;
+}
+
+.content {
+    background: #FFF;
+}
+
+.exertpt {
+    text-indent: 30px;
+    font-size: medium;
+    font-weight: 100;
+}
+
+.col-md-8>h3 {
+    padding-left: 15px;
+    margin-top: 25px;
+    text-align: center;
+    opacity: .8;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.col-md-8>p {
+    padding-left: 12px;
+    text-align: center;
+    opacity: .7;
+    font-size: 12px;
+}
+
+.content_area {
+    background: #FFFFFF;
+    margin-top: 20px;
+}
+
+.content_area>h3 {
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.content_area>ul {
+    float: right;
+}
+
+.content_area>ul>li {
+    display: inline-block;
+    padding-right: 5px;
+}
+
+.content_area>p {
+    opacity: .8;
+    font-size: 12px;
+}
+
+.date {
+    color: #BA6443;
+    font-size: 11px;
+    margin-top: 5px;
+}
+
+.content_area>p>a {
+    text-transform: uppercase;
+}
+
+.widget {
+    background: #FFFFFF;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+
+.widget>h3 {
+    text-align: center;
+    margin-top: 0px;
+}
+
+.widget>p {
+    font-size: 12px;
+    opacity: .8;
+}
+
+.widget>h3 {
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.widget>h4 {
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.widget>ul {
+    text-align: center;
+    padding: 0px;
+}
+
+.widget>ul>li {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    background: #F6F6F6;
+}
+
+.widget>ul>li:hover {
+    background: #D4D37E;
+}
+
+.widget>ul>li>a>i {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.me {
+    margin-top: 10px;
+}
+
+.line {
+    width: 100px;
+    height: 1px;
+    background: #D4D37E;
+    opacity: .4;
+}
+
+.button {
+    width: 140px;
+    height: 30px;
+    color: #BA6443;
+    background: #F6F6F6;
+    text-align: center;
+    padding-top: 5px;
+    margin: 10px auto;
+}
+
+.button>a {
+    padding-top: 10px;
+}
+
+.pagination {
+    margin: 0px;
+    padding-bottom: 10px;
+}
+
+.pagination ul {
+    padding-left: 15px;
+    margin-top: 20px;
+}
+
+.pagination ul li {
+    width: 45px;
+    height: 23px;
+    display: inline-block;
+    padding-right: 5px;
+    text-align: center;
+    padding: 0px;
+    background: #eee;
+}
+
+.pagination ul li:hover {
+    background: #D4D37E;
+}
+
+.pagination ul li a {
+    margin-top: 50px;
+    color: #BA6443;
+}
+
+.com {
+    width: 100px;
+    height: 100px;
+    margin-right: 0px;
+}
+
+h3 {
+    color: gray;
+}
+
+#widgate {
+    background: #FFFFFF;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+#aboutImage {
+    width: 100%;
+    height: 550px;
+}
+
+#button-GetIn-Touch {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 40%;
+    height: 80px;
+}
+
+
+/* Modal css */
+
+.card {
+    box-shadow: 0 20px 27px 0 rgb(0 0 0 / 5%);
+}
+
+.avatar-md {
+    height: 5rem;
+    width: 5rem;
+}
+
+.fs-19 {
+    font-size: 19px;
+}
+
+.primary-link {
+    color: #314047;
+    -webkit-transition: all .5s ease;
+    transition: all .5s ease;
+}
+
+a {
+    color: #02af74;
+    text-decoration: none;
+}
+
+.bookmark-post .favorite-icon a,
+.job-box.bookmark-post .favorite-icon a {
+    background-color: #da3746;
+    color: #fff;
+    border-color: danger;
+}
+
+.favorite-icon a {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    border: 1px solid #eff0f2;
+    border-radius: 6px;
+    color: rgba(173, 181, 189, .55);
+    -webkit-transition: all .5s ease;
+    transition: all .5s ease;
+}
+
+.candidate-list-box .favorite-icon {
+    position: absolute;
+    right: 22px;
+    top: 22px;
+}
+
+.candidate-list {
+    margin: 5px;
+    margin-bottom: 20px;
+}
+
+.fs-14 {
+    font-size: 14px;
+}
+
+.bg-soft-secondary {
+    background-color: rgba(116, 120, 141, .15)!important;
+    color: #74788d!important;
+}
+
+.mt-1 {
+    margin-top: 0.25rem!important;
+}
+
+
+/* safari tour */
+
+.widget-container {
+    -webkit-border-radius: 2px;
+    -webkit-background-clip: padding-box;
+    -moz-border-radius: 2px;
+    -moz-background-clip: padding;
+    border-radius: 2px;
+    background-clip: padding-box;
+    -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, .07);
+    -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, .07);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .07);
+    margin-bottom: 30px
+}
+
+.widget-container .widget {
+    margin-bottom: 0
+}
+
+.widget-container>.row {
+    margin-right: 0 !important;
+    margin-left: 0 !important
+}
+
+.widget-container>.row>[class*="col-"] {
+    padding-left: 0 !important;
+    padding-right: 0 !important
+}
+
+.widget {
+    -webkit-border-radius: 2px;
+    -webkit-background-clip: padding-box;
+    -moz-border-radius: 2px;
+    -moz-background-clip: padding;
+    border-radius: 2px;
+    background-clip: padding-box;
+    background-color: #fff;
+    font-weight: 300;
+    margin-bottom: 30px;
+    position: relative;
+    vertical-align: middle
+}
+
+.widget .row {
+    font-size: 0;
+    margin-left: 0;
+    margin-right: 0
+}
+
+.widget .row:before {
+    display: none
+}
+
+.widget .row .col {
+    font-size: 11px
+}
+
+.widget .row .col:first-child {
+    -webkit-border-radius: 2px 0 0 2px;
+    -webkit-background-clip: padding-box;
+    -moz-border-radius: 2px 0 0 2px;
+    -moz-background-clip: padding;
+    border-radius: 2px 0 0 2px;
+    background-clip: padding-box
+}
+
+.widget .row .col:last-child {
+    -webkit-border-radius: 0 2px 2px 0;
+    -webkit-background-clip: padding-box;
+    -moz-border-radius: 0 2px 2px 0;
+    -moz-background-clip: padding;
+    border-radius: 0 2px 2px 0;
+    background-clip: padding-box
+}
+
+.widget .col {
+    display: inline-block;
+    vertical-align: top
+}
+
+.widget [class*=col-] {
+    font-size: 11px;
+    margin: 0;
+    padding: 0
+}
+
+.image-tile {
+    border: 1px solid #fff
+}
+
+.image-tile .tile {
+    border: 1px solid #fff;
+    height: 100px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    vertical-align: bottom
+}
+
+.image-tile .tile:hover {
+    cursor: pointer
+}
+
+.image-tile .tile:hover>p {
+    background-color: rgba(3, 3, 3, .5);
+    color: #fff
+}
+
+.image-tile .tile>p {
+    background-color: rgba(3, 3, 3, 0);
+    color: rgba(6, 6, 6, 0);
+    font-size: 13px;
+    font-weight: 300;
+    height: 100%;
+    padding-top: 50px;
+    width: 100%
+}
+
+.image-tile .tile.more-images {
+    background-color: #29c7ca;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 300
+}
+
+.image-tile .tile.more-images .images-number {
+    font-size: 25px;
+    margin-top: 20px
+}
+
+#for-number {
+    color: #027eaf;
+}
+
+#for-number-halo {
+    color: #f87f0d;
+}
+
+#for-number-voda {
+    color: #f80d19;
+}
+
+#for-number-master {
+    color: #f1670a;
+}
+
+#Nusahmo-head {
+    margin-left: 20px;
+}
